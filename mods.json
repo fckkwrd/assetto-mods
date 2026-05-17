@@ -1,34 +1,49 @@
 {
   "cars": [
     {
-      "id": "otm325i",
-      "name": "otm325i",
+      "id": "gioe46",
+      "name": "gioe46",
       "version": "v1.0",
       "type": "car",
-      "url": "https://drive.google.com/file/d/14FykLB6oPkFeEGbop7RXEes71GPKL8QO/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1dMiPtLslvrdEVdgnAfsCHoWTVSSdxCzZ/view?usp=sharing",
+      "image": "https://drive.google.com/file/d/1QtgFX0I6MbAUlnrGmx_XYORc1CopBBV9/view?usp=sharing"
     },
     {
-      "id": "nissan_350z_missile",
-      "name": "nissan_350z_missile",
+      "id": "e9x_gueroGs400",
+      "name": "e9x_gueroGs400",
       "version": "v1.0",
       "type": "car",
-      "url": "https://drive.google.com/file/d/1fXPNYFvLgRB-1uXOZaKB_knhBDn-AndC/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1t5caIoeNiSuSBAc9HA5gWPDf8_zzwNhq/view?usp=sharing",
+      "image": "https://drive.google.com/file/d/1uzj5wmZJ5Gtwj-PY02Bpw-KKOPyVBzYG/view?usp=sharing"
     }
   ],
   "maps": [
     {
-      "id": "ac_testjon",
-      "name": "ac_testjon",
+      "id": "SCS_NC_INDUSTRIAL",
+      "name": "SCS_NC_INDUSTRIAL",
       "version": "v1.0",
       "type": "map",
-      "url": "https://drive.google.com/file/d/19vBLHYBrPj5ZPaVsbk70s2sf-hmBaSAx/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1ELT577-8_v3Bv9yk8BH9qExnL5f2MRoq/view?usp=sharing",
+      "image": "https://drive.google.com/file/d/15Zp82JlSCl0SY3tzejoX3pZxTFdoN2ou/view?usp=sharing"
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-05-16",
+      "version": "v1.1",
+      "changes": [
+        "Added Example Car 1",
+        "Added Example Track 1",
+        "Fixed physics on Example Car 2"
+      ]
     },
     {
-      "id": "colusathug",
-      "name": "colusathug",
+      "date": "2026-05-01",
       "version": "v1.0",
-      "type": "map",
-      "url": "https://drive.google.com/file/d/1Q_4wRMSgG8CRY8gweFfvEox-CgAvIwYL/view?usp=sharing"
+      "changes": [
+        "Initial mod pack release",
+        "Added Example Car 2"
+      ]
     }
   ]
 }
