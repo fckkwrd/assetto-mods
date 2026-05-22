@@ -1,6 +1,7 @@
 {
   "password": "",
-  "announcement": "🏁 Welcome to the server mod pack! Join our Discord for race events.",
+  "announcement": "🏁 Welcome! Use the installer to get all server mods.",
+  "dark_launch_code": "wrdvip",
   "server": {
     "name": "WRD Built Racing Server",
     "ip": "YOUR_SERVER_IP",
@@ -16,38 +17,18 @@
       "track": "Example Track 1",
       "car_class": "GT3",
       "description": "20 lap sprint race, clean racing rules apply."
-    },
-    {
-      "title": "Tuesday Time Trial",
-      "date": "2026-05-21",
-      "time": "7:00 PM UTC",
-      "track": "Example Track 2",
-      "car_class": "Open",
-      "description": "Beat the server record and win a special role."
     }
   ],
   "leaderboard": [
-    { "track": "Example Track 1", "entries": [
-      { "name": "Driver 1", "time": "1:32.441", "car": "Ferrari 488" },
-      { "name": "Driver 2", "time": "1:33.012", "car": "BMW M4" },
-      { "name": "Driver 3", "time": "1:33.887", "car": "Porsche 911" }
-    ]},
-    { "track": "Example Track 2", "entries": [
-      { "name": "Driver 2", "time": "2:14.223", "car": "BMW M4" },
-      { "name": "Driver 1", "time": "2:15.001", "car": "Ferrari 488" }
-    ]}
+    {
+      "track": "Example Track 1",
+      "entries": [
+        { "name": "Driver 1", "time": "1:32.441", "car": "Ferrari 488" },
+        { "name": "Driver 2", "time": "1:33.012", "car": "BMW M4" }
+      ]
+    }
   ],
   "cars": [
-    {
-      "id": "gioe46",
-      "name": "gioe46",
-      "version": "v1.0",
-      "type": "car",
-      "category": "required",
-      "size": 118900000,
-      "url": "https://drive.google.com/file/d/1dMiPtLslvrdEVdgnAfsCHoWTVSSdxCzZ/view?usp=sharing",
-      "image": "https://drive.google.com/file/d/1QtgFX0I6MbAUlnrGmx_XYORc1CopBBV9/view?usp=sharing"
-    },
     {
       "id": "e9x_gueroGs400",
       "name": "e9x_gueroGs400",
@@ -57,6 +38,18 @@
       "size": 100500000,
       "url": "https://drive.google.com/file/d/1t5caIoeNiSuSBAc9HA5gWPDf8_zzwNhq/view?usp=sharing",
       "image": "https://drive.google.com/file/d/1uzj5wmZJ5Gtwj-PY02Bpw-KKOPyVBzYG/view?usp=sharing"
+      "hidden": false
+    },
+    {
+      "id": "gioe46",
+      "name": "gioe46",
+      "version": "v0.1-beta",
+      "type": "car",
+      "category": "optional",
+      "size": 118900000,
+      "url": "https://drive.google.com/file/d/1dMiPtLslvrdEVdgnAfsCHoWTVSSdxCzZ/view?usp=sharing",
+      "image": "https://drive.google.com/file/d/1QtgFX0I6MbAUlnrGmx_XYORc1CopBBV9/view?usp=sharing"
+      "hidden": true
     }
   ],
   "maps": [
@@ -69,6 +62,7 @@
       "size": 359000000,
       "url": "https://drive.google.com/file/d/1ELT577-8_v3Bv9yk8BH9qExnL5f2MRoq/view?usp=sharing",
       "image": "https://drive.google.com/file/d/15Zp82JlSCl0SY3tzejoX3pZxTFdoN2ou/view?usp=sharing"
+      "hidden": false
     }
   ],
   "changelog": [
@@ -78,15 +72,7 @@
       "changes": [
         "Added Example Car 1",
         "Added Example Track 1",
-        "Updated physics on Example Car 2"
-      ]
-    },
-    {
-      "date": "2026-05-01",
-      "version": "v1.0",
-      "changes": [
-        "Initial mod pack release",
-        "Added Example Car 2"
+        "Dark Launch feature added for beta testers"
       ]
     }
   ]
