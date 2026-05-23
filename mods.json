@@ -1,3 +1,33 @@
+{
+  "password": "wrd",
+  "announcement": "🏁 Welcome! Use the installer to get all server mods.",
+  "dark_launch_code": "wrdvip",
+  "server": {
+    "name": "WRD Built Racing Server",
+    "ip": "YOUR_SERVER_IP",
+    "port": 9600,
+    "discord": "https://discord.gg/wEQy7vsvfQ",
+    "description": "Competitive sim racing — all skill levels welcome."
+  },
+  "events": [
+    {
+      "title": "Sunday Sprint Race",
+      "date": "2026-05-19",
+      "time": "8:00 PM UTC",
+      "track": "Example Track 1",
+      "car_class": "GT3",
+      "description": "20 lap sprint race, clean racing rules apply."
+    }
+  ],
+  "leaderboard": [
+    {
+      "track": "Example Track 1",
+      "entries": [
+        { "name": "Driver 1", "time": "1:32.441", "car": "Ferrari 488" },
+        { "name": "Driver 2", "time": "1:33.012", "car": "BMW M4" }
+      ]
+    }
+  ],
   "cars": [
     {
       "id": "gioe46",
@@ -35,3 +65,15 @@
       "hidden": false
     }
   ],
+  "changelog": [
+    {
+      "date": "2026-05-17",
+      "version": "v1.1",
+      "changes": [
+        "Added Example Car 1",
+        "Added Example Track 1",
+        "Dark Launch feature added for beta testers"
+      ]
+    }
+  ]
+}
