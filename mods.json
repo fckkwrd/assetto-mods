@@ -1,33 +1,3 @@
-{
-  "password": "wrd",
-  "announcement": "🏁 Welcome! Use the installer to get all server mods.",
-  "dark_launch_code": "wrdvip",
-  "server": {
-    "name": "WRD Built Racing Server",
-    "ip": "YOUR_SERVER_IP",
-    "port": 9600,
-    "discord": "https://discord.gg/wEQy7vsvfQ",
-    "description": "Competitive sim racing — all skill levels welcome."
-  },
-  "events": [
-    {
-      "title": "Sunday Sprint Race",
-      "date": "2026-05-19",
-      "time": "8:00 PM UTC",
-      "track": "Example Track 1",
-      "car_class": "GT3",
-      "description": "20 lap sprint race, clean racing rules apply."
-    }
-  ],
-  "leaderboard": [
-    {
-      "track": "Example Track 1",
-      "entries": [
-        { "name": "Driver 1", "time": "1:32.441", "car": "Ferrari 488" },
-        { "name": "Driver 2", "time": "1:33.012", "car": "BMW M4" }
-      ]
-    }
-  ],
   "cars": [
     {
       "id": "gioe46",
@@ -37,7 +7,7 @@
       "category": "required",
       "size": 118900000,
       "url": "https://drive.google.com/file/d/1dMiPtLslvrdEVdgnAfsCHoWTVSSdxCzZ/view?usp=sharing",
-      "image": "https://drive.google.com/file/d/1QtgFX0I6MbAUlnrGmx_XYORc1CopBBV9/view?usp=sharing"
+      "image": "https://drive.google.com/file/d/1QtgFX0I6MbAUlnrGmx_XYORc1CopBBV9/view?usp=sharing",
       "hidden": false
     },
     {
@@ -48,7 +18,7 @@
       "category": "required",
       "size": 100500000,
       "url": "https://drive.google.com/file/d/1t5caIoeNiSuSBAc9HA5gWPDf8_zzwNhq/view?usp=sharing",
-      "image": "https://drive.google.com/file/d/1uzj5wmZJ5Gtwj-PY02Bpw-KKOPyVBzYG/view?usp=sharing"
+      "image": "https://drive.google.com/file/d/1uzj5wmZJ5Gtwj-PY02Bpw-KKOPyVBzYG/view?usp=sharing",
       "hidden": true
     }
   ],
@@ -61,19 +31,7 @@
       "category": "required",
       "size": 359000000,
       "url": "https://drive.google.com/file/d/1ELT577-8_v3Bv9yk8BH9qExnL5f2MRoq/view?usp=sharing",
-      "image": "https://drive.google.com/file/d/15Zp82JlSCl0SY3tzejoX3pZxTFdoN2ou/view?usp=sharing"
+      "image": "https://drive.google.com/file/d/15Zp82JlSCl0SY3tzejoX3pZxTFdoN2ou/view?usp=sharing",
       "hidden": false
     }
   ],
-  "changelog": [
-    {
-      "date": "2026-05-17",
-      "version": "v1.1",
-      "changes": [
-        "Added Example Car 1",
-        "Added Example Track 1",
-        "Dark Launch feature added for beta testers"
-      ]
-    }
-  ]
-}
